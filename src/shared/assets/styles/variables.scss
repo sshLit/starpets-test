@@ -1,0 +1,94 @@
+:root {
+  --font-family: Inter, sans-serif;
+  --border-radius: 21px;
+
+  --color-black: #000;
+  --color-text-black: #1a1a1a;
+  --color-white: #fff;
+
+  --color-black-025: rgba(0, 0, 0, 0.25);
+  --color-black-050: rgba(0, 0, 0, 0.5);
+  --color-black-085: rgba(0, 0, 0, 0.85);
+  --color-black-003: rgba(0, 0, 0, 0.03);
+
+  --color-white-03: rgba(255, 255, 255, 0.3);
+  --color-white-05: rgba(255, 255, 255, 0.5);
+
+  --color-grey-dark: #1e1e1e;
+  --color-grey-medium: #646464;
+  --color-grey-light: #838383;
+  --color-grey-lightest: #b5b5b5;
+  --color-grey-bg: #f6f6f6;
+  --color-grey-bg-light: #fafafa;
+  --color-grey-bg-lighter: #fcfcfc;
+
+  --color-brown: #533b0f;
+
+  --color-blue: #83cbff;
+  --color-blue-primary: #4891ff;
+  --color-blue-primary-light: rgba(72, 145, 255, 0.1);
+  --color-blue-primary-4d: #4891ff4d;
+  --color-blue-fly: #108ed4;
+
+  --color-yellow: #ffcc00;
+  --color-orange: #ff9500;
+  --color-orange-primary: #fe9920;
+  --color-orange-primary-light: rgba(254, 153, 32, 0.1);
+  --color-orange2: #fab424;
+  --color-orange-hover: #ffa538;
+  --color-orange-disabled: #ffd097;
+
+  --color-red: #a12800;
+  --color-red-primary: #e33948;
+  --color-red-primary-light: rgba(235, 61, 61, 0.1);
+  --color-red-error: #ff0000;
+
+  --color-green-dark: #004c4d;
+  --color-green: #006466;
+  --color-green-light: #1b7875;
+  --color-green-primary: #40bb18;
+  --color-green-primary-light: rgba(64, 187, 24, 0.1);
+  --color-green-primary-light-border: #daf1d1;
+  --color-green-rare: #57be37;
+  --color-green-rare-light: #c6ebba;
+
+  --color-purple-primary: #7e10d4;
+  --color-purple-primary-light: rgba(126, 16, 212, 0.1);
+  --color-purple-primary-4d: #7e10d44d;
+
+  --color-pink-primary: #d41057;
+  --color-pink-primary-light: rgba(212, 16, 87, 0.1);
+  --color-pink-ultra-rare: #f7bbc0;
+
+  --button-primary-solid-background-default: var(--color-orange-primary);
+  --button-primary-solid-background-hover: var(--color-orange-hover);
+  --button-primary-solid-background-pressed: var(--color-orange-hover);
+  --button-primary-solid-background-disabled: var(--color-orange-disabled);
+
+  --button-secondary-solid-background-default: var(--color-grey-bg-light);
+  --button-secondary-solid-background-hover: var(--color-grey-bg);
+  --button-secondary-solid-background-pressed: var(--color-grey-bg);
+  --button-secondary-solid-background-disabled: var(--color-grey-bg-lighter);
+  --button-secondary-solid-background-loader: var(--color-grey-bg);
+  --button-secondary-solid-text-default: var(--color-grey-lightest);
+  --button-secondary-solid-text-hover: var(--color-grey-medium);
+  --button-secondary-solid-text-pressed: var(--color-grey-light);
+  --button-secondary-solid-text-disabled: var(--color-grey-lightest);
+  --button-secondary-solid-icon-default: var(--color-grey-lightest);
+  --button-secondary-solid-icon-hover: var(--color-grey-medium);
+  --button-secondary-solid-icon-pressed: var(--color-grey-light);
+  --button-secondary-solid-icon-disabled: var(--color-grey-lightest);
+
+  --color-main-dark: var(--color-green-dark);
+  --color-main: var(--color-green);
+  --color-main-light: var(--color-green-light);
+
+  --color-danger: var(--color-red);
+
+  --font-color: var(--color-black);
+  --background-color: var(--color-text-black);
+  --background-page: var(--color-grey-bg-light);
+
+  --box-shadow: 0 2px 4px 0 var(--color-black-025);
+  --box-shadow-dropdown: 0 4px 18px 0 var(--color-black-003);
+}
